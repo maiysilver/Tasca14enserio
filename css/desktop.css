@@ -11,9 +11,9 @@ body,html{
 	position:relative;
 	margin:auto;
 	text-align:center;
-	background-color:#1a1e23;
+	background-color:#1fb8b9;
 	border-radius: 15px;
-	color:white;
+	color:black;
 	font-size:2em;
 }
 #intro {
@@ -22,6 +22,7 @@ body,html{
 	height:50%;
 	width:290px;
 	font-size:2em;
+	border-radius: 15px;
 }
 #intro li{
 	padding:10px;
@@ -48,7 +49,7 @@ body,html{
 	border-color:white;
 }
 #logo {
-	margin:0px 0px 0px 45% ;
+	margin:auto ;
 	width:150px;
 	height: 150px;
 	padding-bottom: 0px;
@@ -56,7 +57,7 @@ body,html{
 	background-size:150px 150px;
 }
 #logo:hover {
-	margin:0px 0px 0px 45% ;
+	margin:auto;
 	width:150px;
 	height: 150px;
 	padding-bottom: 0px;
@@ -87,12 +88,12 @@ a.logo p {
 	border-width:7.5px;
 	position: absolute;
 	border-style:groove;
-	border-color:white;
-	background-color:#1a1e23;
+	border-color:black;
+	background-color:#4746d7;
 	border-radius: 32px 32px 32px 32px;
 	-moz-border-radius: 32px 32px 32px 32px;
 	-webkit-border-radius: 32px 32px 32px 32px;
-	color:white;
+	color:black;
 	margin-left:20%;
 	margin-right:20%;
 	margin-top:5%;
@@ -131,52 +132,52 @@ checkbox{
 }
 
 #pregunta1{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta2{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 
 }
 
 #pregunta3{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 
 }
 
 #pregunta4{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta5{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta6{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta7{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta8{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta9{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 }
 
 #pregunta10{
-	border-bottom:3px groove white;
+	border-bottom:3px solid black;
 	height:8.5%;
 
 }
@@ -184,6 +185,11 @@ checkbox{
 #boton{
 	height:8.5%;
 	color:white;
+}
+#boton1{
+	height:8.5%;
+	color:white;
+	margin-left:35%;
 }
 
 h3{
