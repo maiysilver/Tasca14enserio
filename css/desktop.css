@@ -1,10 +1,37 @@
 body,html{
-	background-image:url("../img/Fondo.png");
+	background-image: url(../images/fondo.png);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 }
 
+.info {
+	width:700px;
+	height:auto;
+	position:relative;
+	margin:auto;
+	text-align:center;
+	background-color:#1a1e23;
+	border-radius: 15px;
+	color:white;
+	font-size:2em;
+}
+#intro {
+	position:relative;
+	margin:auto;
+	height:50%;
+	width:290px;
+	font-size:2em;
+}
+#intro li{
+	padding:10px;
+	width:250px;
+	float:left;
+}
+#intro input[type=text]{
+	margin-left:5%;
+	width:90%;
+}
 /*Página del formulario*/
 #icono{
 	position:relative;
@@ -20,8 +47,33 @@ body,html{
 	border-style:groove;
 	border-color:white;
 }
+#logo {
+	margin:0px 0px 0px 45% ;
+	width:150px;
+	height: 150px;
+	padding-bottom: 0px;
+	background-image: url(../images/logo.png);
+	background-size:150px 150px;
+}
+#logo:hover {
+	margin:0px 0px 0px 45% ;
+	width:150px;
+	height: 150px;
+	padding-bottom: 0px;
+	background-image: url(../images/logo_neg.png);
+	background-size:150px 150px;
+	z-index: 999;
+}
+a.logo p {
+	margin-top:0px;
+	margin-left:46%;
+	margin-bottom: -15px;
+	color:white;
+	font-size:2em;
+	list-style-type: none;
+}
 
-#logo{
+#logo3{
 	position:relative;
 	width:90%;
 	height:90%;
@@ -131,6 +183,7 @@ checkbox{
 
 #boton{
 	height:8.5%;
+	color:white;
 }
 
 h3{
