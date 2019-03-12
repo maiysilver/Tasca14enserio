@@ -189,7 +189,9 @@ checkbox{
 #boton1{
 	height:8.5%;
 	color:white;
-	margin-left:35%;
+}
+#boton1 input{
+	margin-left:25%;
 }
 
 h3{
