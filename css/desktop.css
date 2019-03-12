@@ -6,7 +6,7 @@ body,html{
 }
 
 .info {
-	width:700px;
+	width:75%;
 	height:auto;
 	position:relative;
 	margin:auto;
@@ -20,18 +20,19 @@ body,html{
 	position:relative;
 	margin:auto;
 	height:50%;
-	width:290px;
+	width:30%;
 	font-size:2em;
 	border-radius: 15px;
 }
 #intro li{
 	padding:10px;
-	width:250px;
-	float:left;
+	width:70%;
+	margin:auto;
 }
 #intro input[type=text]{
-	margin-left:5%;
-	width:90%;
+	margin-left:20%;
+	width:100%;
+	font-size:30px;
 }
 /*Página del formulario*/
 #icono{
@@ -103,6 +104,7 @@ a.logo p {
 #formulario{
 	height:100%;
 	width:100%;
+	font-size:2em;
 }
 
 textarea{
@@ -185,13 +187,20 @@ checkbox{
 #boton{
 	height:8.5%;
 	color:white;
+	margin-left:35%;
+	position:relative;
+	font-size:30px;
 }
+#boton li {
+	margin:auto;
+}
+
 #boton1{
 	height:8.5%;
 	color:white;
 }
 #boton1 input{
-	margin-left:25%;
+	margin:auto;
 }
 
 h3{
@@ -206,7 +215,7 @@ h3{
 	position: absolute;
 	border-style:groove;
 	border-color:white;
-	background-color:#1a1e23;
+	background-color:#4746d7;
 	border-radius: 32px 32px 32px 32px;
 	-moz-border-radius: 32px 32px 32px 32px;
 	-webkit-border-radius: 32px 32px 32px 32px;

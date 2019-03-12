@@ -351,7 +351,7 @@ function comprobar(){
 
 			f.elements[pregunta].focus();
 
-			alert("Tienes que contestar la pregunta "+(pregunta +1));
+			alert("Te falta contestar la pregunta "+(pregunta +1));
 
 			return false;
 		}
@@ -429,7 +429,7 @@ function mostrarNota(){
 	if(nota<0){
 		nota=0;
 	}
-	var node = document.createTextNode("Tu nota es: " + nota.toFixed(2));
+	var node = document.createTextNode("Nota final: " + nota.toFixed(2));
 	p.appendChild(node);
 	document.getElementById("nota").appendChild(p);
 	document.getElementById("preguntas").style.display="none";
